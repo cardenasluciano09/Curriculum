@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/style.css">
+    <link rel="stylesheet" href="/CSS/style1.css">
+    <link rel="stylesheet" href="/CSS/style2.css">
+    <script src="https://kit.fontawesome.com/b90d29a55c.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tourney:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Tourney:wght@300&family=Zen+Tokyo+Zoo&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+    <title>Curriculum-Web</title>
+</head>
+<body>
+    <div class="topnav">
+      <a class="active" href="/index.html">Inicio</a>
+      <a href="/html/crear.html">Crear</a>
+      <a href="/html/contact.html">Contacto</a>
+      <a href="#about">About</a>
+    </div>
+
+    <h1 class="w3-yellow">Curriculum Vitae <i class="fas fa-address-card"></i></i></h1>
+
+    <div class="w3-card-4">
+
+        <div class="w3-container w3-green">
+          <h2>Datos Personales <i class="fas fa-user-alt"></i></i></h2>
+        </div>
+        
+        <form class="w3-container">
+        
+        <label>Nombre:</label>
+        <input id="nombreInp" class="w3-input" type="text">
+        
+        <label>Apellido:</label>
+        <input id="apellidoInp" class="w3-input" type="text">
+
+        <label>D.N.I.:</label>
+        <input id="dniInp" class="w3-input" type="number">
+
+        <label>Fecha de nacimiento:</label>
+        <input id="fNacimInp" class="w3-input" type="text">
+
+        <label>Edad:</label>
+        <input id="edadInp" class="w3-input" type="number">
+
+        <label>Direccion:</label>
+        <input id="direccionInp" class="w3-input" type="text">
+
+        <label>Numero de telefono:</label>
+        <input id="telefonoInp" class="w3-input" type="number">
+
+        <label>Email:</label>
+        <input id="emailInp" class="w3-input" type="email">
+        
+        </form>
+        
+    </div>
+    
+    <div class="w3-card-4">
+
+        <div class="w3-container w3-green">
+          <h2>Datos Academicos <i class="fas fa-user-graduate"></i></h2>
+        </div>
+        
+        <form class="w3-container">
+        
+        <label>Primaria:</label>
+        <input id="primariaInp" class="w3-input" type="text">
+        
+        <label>Secundario:</label>
+        <input id="secundariaInp" class="w3-input" type="text">
+
+        <label>Terciario:</label>
+        <input id="terciarioInp" class="w3-input" type="text">
+
+        <label>Otros cursos:</label>
+        <input id="cursosInp" class="w3-input" type="text">
+        
+        </form>
+        
+    </div>
+
+    <div class="w3-card-4">
+
+        <div class="w3-container w3-green">
+          <h2>Informacion adicional <i class="fas fa-user-edit"></i></h2>
+        </div>
+        
+        <form class="w3-container">
+        
+        <label>Informacion:</label>
+        <input id="informacionInp" class="w3-input" type="text">
+        
+        </form>
+        
+    </div>
+
+    <div>
+        <button class="button botonOne" style="vertical-align:middle"><span>Procesar</span></button>
+    </div>
+
+  
+    <div id="prinCont"  class="w3-card-4">
+      <!-- Datos Personales -->
+      <div id="datosPe" class="w3-container w3-green"></div>
+      <h4 id="nombreDocumento"></h4>
+      <h4 id="apellidoDocumento"></h4>
+      <h4 id="dniDocumento"></h4>
+      <h4 id="fnacimientoDocumento"></h4>
+      <h4 id="edadDocumento"></h4>
+      <h4 id="direccionDocumento"></h4>
+      <h4 id="telefonoDocumento"></h4>
+      <h4 id="emailDocumento"></h4>
+
+      <!-- Datos Academicos -->
+      <div id="datosAca" class="w3-container w3-green"></div>
+      <h4 id="primariaDocumento"></h4>
+      <h4 id="secundariaDocumento"></h4>
+      <h4 id="terciarioDocumento"></h4>
+      <h4 id="cursoDocumento"></h4>
+
+      <!-- Informacion adicioal -->
+      <div id="datosAdi" class="w3-container w3-green"></div>
+      <h4 id="informacionDocumento"></h4>
+
+    </div>
+    <div id="boton"></div>
+
+    <script src="/JS/codigo.js"></script>
+</body>
+</html>
